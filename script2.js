@@ -25,4 +25,7 @@ const getPeople = async (fetch) => {
     }
 }
 
-getPeople(fetch);
+module.exports = {
+    getPeople,
+    getPeoplePromise
+}
